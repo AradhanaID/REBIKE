@@ -1,5 +1,10 @@
 /* Landing Page */
 
+.logo img {
+    width: 80px;
+    padding-left: 30px;
+}
+
 /* Make a my Own Transition */
 
 @keyframes FadeInAndScale {
@@ -47,9 +52,9 @@
 
 .arrow {
 	width: fit-content;
-	margin: 9rem auto 5rem;
-	border-radius: 50%;
-	background-color: #37b6ff;
+	margin: 5rem auto 5rem;
+	/* border-radius: 50%; */
+	/* background-color: #37b6ff; */
 	width: 5rem;
 	height: 5rem;
     animation: FadeInAndScale 4s;
