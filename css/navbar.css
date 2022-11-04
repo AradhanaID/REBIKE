@@ -85,6 +85,12 @@ nav {
 }
 
 
+/* Logo */
+.logo img {
+    width: 80px;
+    padding-left: 30px;
+}
+
 
 /* Login & Sign up */
 
