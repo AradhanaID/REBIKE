@@ -9,6 +9,13 @@
     --utilitybike: #479196;
     --tandembike: #484796;
 }
+
+/* Logo */
+.logo img {
+    width: 110px;
+    padding-left: 30px;
+}
+
 /* Errors Styling */
 .fa-solid {
     display: inline;
