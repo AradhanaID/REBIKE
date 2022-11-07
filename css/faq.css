@@ -125,7 +125,6 @@ nav {
   color: brown;
 }
 .tulisan{
-  font-family: montserrat;
   color: black;
   font-size: 30px;
   margin-left: 50px;
@@ -146,11 +145,24 @@ nav {
 }
 
 .tulisan a {
-  text-decoration: none;
-  color: black;
-  background-color: #37B6FF;
-  padding: 10px 25px;
+  width: 15rem;
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #37b6ff;
+  border: 0;
   border-radius: 30px;
+  text-align: center;
+  transition: 0.1s ease;
+  text-decoration: none;
+}
+
+.tulisan a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 3px rgb(218, 218, 218);
 }
 
 /* FAQ Box */
