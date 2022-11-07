@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/index-style.css">
 	<link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" 
+    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <title>Home</title>
 </head>
 <body>
+
+    <!-- Loading Page -->
+    <div id="loader-web">
+        <img src="assets/loading.gif" alt="">
+    </div>
+
     <!-- Container -->
     <div class="container">
 
@@ -146,5 +154,13 @@
 
     </div>
     
+    <script>
+        var loader = document.getElementById("loader-web");
+
+        window.addEventListener("load", function(){
+            loader.style.visibility="hidden";
+        });
+    </script>
+
 </body>
 </html>
