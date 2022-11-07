@@ -55,30 +55,66 @@
     </nav>
 
      <!-- CONTENT -->
-    <img id="gambar" src="assets/question.png" alt="">
-    <div class="tulisan">
-      <h1>Have a <br> Question?</h1>
+    <div class="top-content">
+      
+      <div class="tulisan">
+        <h1 id="title">Have a <br> Question?</h1>
+        <a href="#target">Get Started</a>
+      </div>
+     
+
+      <lord-icon id="gambar"
+        src="https://cdn.lordicon.com/zpxybbhl.json"
+        trigger="hover"
+        colors="primary:#121331,secondary:#37b6ff"
+        style="width:500px;height:500px">
+      </lord-icon>
     </div>
-    <button class="button button1"><a href=#tulisan_2>Get Started</a></button>
-    <div class="tulisan2" id="tulisan_2">
-      <h1>Frequently Asked : </h1>
-    </div> 
-    <div class="box-acc">
-      <button class="accordion">What Is RE:BIKE?</button>
-      <div class="panel">
-        <p>RE:BIKE is a platform to make it easier for customers to repair their favorite bicycle</p>
+
+    <!-- FAQ Box-->
+    <div class="container-fluid" id="target">
+      <h2 id="faq-title">Frequently Asked Question</h2>
+
+      <!-- First Question -->
+      <div class="accordion">
+        <div class="icon"></div>
+        <h5>What is RE:BIKE?</h5>
       </div>
-      <button class="accordion">I just fixed it a few days ago, but it broke again</button>
       <div class="panel">
-        <p>We provide service and parts warranty for 7 days since the bicycle was repaired</p>
+        <p>
+          RE:BIKE is a platform to make it easier for 
+          customers to repair their favorite bycicle
+        </p>
       </div>
-      <button class="accordion">How do I claim the warranty?</button>
+
+      <!-- Second Question -->
+      <div class="accordion">
+        <div class="icon"></div>
+        <h5>
+          I just fixed it a few days ago, but it broken again
+        </h5>
+      </div>
       <div class="panel">
-        <p>You can contact us through our call center, within 2x24 hours our mechanic will come
- to your location</p>
+        <p>
+          We provide service and parts warranty for 7 days 
+          since the bycicle was repaired
+        </p>
       </div>
-  
-</div>
+
+      <!-- Third Question -->
+      <div class="accordion">
+        <div class="icon"></div>
+        <h5>
+          How do I claim the warranty?
+        </h5>
+      </div>
+      <div class="panel">
+        <p>
+          You can contact us through our call center, within
+          2x24 hours oue mechanic will come to your location
+        </p>
+      </div>
+    </div>
 
    <!-- Footer -->
 
@@ -102,5 +138,9 @@
     </div>
 
   </footer>
+
+  <!-- JS Icon -->
+  <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+
 </body>
 </html>

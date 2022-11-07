@@ -113,6 +113,13 @@ nav {
   margin-left: 220%;
 }
 
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 100px;
+}
+
 .tulisan{
   font-family: 'Poppins', sans-serif;
   color: brown;
@@ -120,8 +127,7 @@ nav {
 .tulisan{
   font-family: montserrat;
   color: black;
-  font-size: 175%;
-  margin-top: 200px;
+  font-size: 30px;
   margin-left: 50px;
 }
 .caption{
@@ -134,76 +140,90 @@ nav {
   height: auto;
   float: right;
 }
-.button {
-  background-color: #37B6FF;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+
+.tulisan h1 {
+  margin-bottom: 20px;
+}
+
+.tulisan a {
   text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-top: 50px;
-  margin-left: 70px;
+  color: black;
+  background-color: #37B6FF;
+  padding: 10px 25px;
   border-radius: 30px;
 }
-.button1 {
-  font-size: 22px;
-  font-family: montserrat;
+
+/* FAQ Box */
+
+#faq-title {
+  margin: 0;
 }
 
-a:link,a:visited {
-  color: white;
-  text-decoration: none;
+.container-fluid {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
-.tulisan2{
-  margin-top: 300px;
-  text-align: center;
-  font-family: montserrat;
-  color: black;
-  font-size: 60%;
+.container-fluid h2 {
+  color: #37B6FF;
+  position: relative;
+  width: 23rem;
 }
-.box-acc{
-  margin:125px;
-  padding: 2px;
-  background-color: black;
-}
+
 .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
   width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-.accordion:hover {
-  background-color: #37B6FF;
-}
-.active{
-   background-color: #ccc;
-}
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-.accordion:after {
-  content: '\02795';
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
+  padding: 0 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
 }
 
-.active:after {
-  content: "\2796";
+.accordion .icon {
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  background: url() no-repeat 8px 7px black;
+  border-radius: 50%;
+  float: left;
+  transition: all .5s ease-in;
 }
+
+.accordion h5 {
+  font-size: 20px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: black;
+  transition: all .5s ease-in;
+}
+
+.active .icon {
+  background: url() no-repeat 8px 25px white;
+}
+
+.active {
+  color: white;
+}
+
+.active h5 {
+  color: black;
+}
+
+.panel {
+  padding: 0 15px;
+  border-left: 1px solid black;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .5s ease-in;
+}
+
 /* Footer */
 
 footer {
